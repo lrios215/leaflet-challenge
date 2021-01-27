@@ -32,15 +32,15 @@ d3.json(earthquakesURL, function(earthquakeData) {
   function chooseColor(depth) {
     switch(true) {
       case depth > 90:
-        return "red";
+        return "darkred";
       case depth > 70:
-        return "orangered";
+        return "darkorange";
       case depth > 50:
-        return "orange";
-      case depth > 30:
         return "gold";
-      case depth > 10:
+      case depth > 30:
         return "yellow";
+      case depth > 10:
+        return "green";
       default:
         return "lightgreen";
     }
