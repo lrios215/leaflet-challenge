@@ -26,30 +26,18 @@ This map utilizes the [Leaflet open-source JavaScriptlibrary](https://leafletjs.
 
 2. **Map Visualization of the Data**
 
+    ![JSON](images/map.png) 
+   
    A map was created using Leaflet that plots all of the earthquakes from the above mentioned data set based on their longitude and latitude.
 
    * The data markers reflects: 
         * The magnitude of the earthquake by their size 
         * The depth of the earthquake by color
-        * Earthquakes with higher magnitudes appear larger and earthquakes with greater depth appear darker in color.
+        * Earthquakes with higher magnitudes appear larger and earthquakes with greater depth appear darker in color
 
    * Popups that provide additional information about the earthquake when a marker is clicked:
-        * Specific Location and time
+        * Specific Location, time and magnitude
 
-   * Create a legend that will provide context for your map data.
-
-- - -
-
-### Level 2: More Data (Optional)
-
-The USGS wants you to plot a second data set on your map to illustrate the relationship between tectonic plates and seismic activity. You will need to pull in a second data set and visualize it along side your original set of data. Data on tectonic plates can be found at <https://github.com/fraxen/tectonicplates>.
-
-Additional Layer: Plate Tectonics
-
-* Plot a second data set on our map.
-
-* Add a number of base maps to choose from as well as separate out our two different data sets into overlays that can be turned on and off independently.
-
-* Add layer controls to our map.
+   * Legend shows the depth range based by color
 
 - - -
